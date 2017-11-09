@@ -1,7 +1,7 @@
 # kotlin-fossavotabona
 Examples used during my presentation at Codemotion Milan 2017
 
-* kotlin-slides contains all the code examples used during the presentations
+* kotlin-slides: contains all the code examples used during the presentations
 
 The other projects are the two examples at the end of the presentation:
 
