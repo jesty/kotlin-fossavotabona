@@ -1,5 +1,7 @@
 # kotlin-fossavotabona
-Examples used during my presentation at Codemotion Milan 2017
+Examples used during my talk at Codemotion Milan 2017.
+
+Here the full presentation: https://www.slideshare.net/jesty/kotlin-maybe-its-the-right-time-81928424
 
 * kotlin-slides: contains all the code examples used during the presentations
 
@@ -10,5 +12,6 @@ The other projects are the two examples at the end of the presentation:
    * curl -XGET http://localhost:8080/contacts/1
    * curl -XPOST http://localhost:8080/contacts  -H 'Content-Type: application/json' -d '{"name":"Davide", "surname":"Cerbo"}'
    * curl -XDELETE http://localhost:8080/contacts/1
-* kotlin-codemotion-front: To run the frontend use, made with Kotlin, `yarn start`. After visit http://locahost:3000
+* kotlin-codemotion-front: To run the frontend, made with Kotlin, use `yarn start`. After visit http://locahost:3000
+
 
