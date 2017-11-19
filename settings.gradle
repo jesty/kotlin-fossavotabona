@@ -1,0 +1,2 @@
+rootProject.name = "kotlin-fossavotabona"
+include "kotlin-codemotion", "kotlin-codemotion-front", "kotlin-slides"
