@@ -25,7 +25,7 @@ class App : RComponent<RProps, RState>() {
             key = "ticker"
             ticker()
         }
-        p("App-contact") {
+        div("App-contact") {
             key = "contact"
             contactList("Davide")
         }

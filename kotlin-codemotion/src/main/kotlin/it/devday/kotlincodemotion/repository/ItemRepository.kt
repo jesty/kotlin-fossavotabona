@@ -1,6 +1,6 @@
 package it.devday.kotlincodemotion.repository
 
-import it.devday.kotlincodemotion.domain.Contact
+import it.devday.kotlincodemotion.domain.Item
 import org.springframework.data.jpa.repository.JpaRepository
 
-interface ContactRepository: JpaRepository<Contact, Long>
+interface ItemRepository: JpaRepository<Item, Long>

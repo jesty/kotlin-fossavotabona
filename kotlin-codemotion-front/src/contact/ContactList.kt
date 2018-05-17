@@ -8,6 +8,7 @@ import react.dom.ul
 import utils.async
 import utils.httpGet
 import kotlin.js.JSON
+import ReactBootstrap
 
 interface ContactListProps : RProps {
     var owner: String
@@ -18,6 +19,7 @@ interface ContactListState : RState {
 }
 
 class ContactList(props: ContactListProps) : RComponent<ContactListProps, ContactListState>(props) {
+
     override fun ContactListState.init(props: ContactListProps) {
         list = emptyArray()
     }
@@ -36,6 +38,13 @@ class ContactList(props: ContactListProps) : RComponent<ContactListProps, Contac
     override fun RBuilder.render() {
         div("ContactList-header") {
             key = "contactListHeader"
+            Alert {
+                attrs {
+                    bsStyle = "warning"
+                }
+
+                +"Got an error"
+            }
             h2 {
                 +"${props.owner}'s contact list"
             }
